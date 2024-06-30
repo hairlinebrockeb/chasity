@@ -9,7 +9,7 @@ local function HttpLoad(Url)
 	return loadstring(HttpGet(Url))();
 end;
 
-local RepUrl = "https://gitlab.com/te4224/Scripts/-/raw/main/Chrysalism/V1/"
+local RepUrl = "https://raw.githubusercontent.com/hairlinebrockeb/chasity/main/"
 local function import(path)
 	return HttpLoad(RepUrl .. path);
 end;

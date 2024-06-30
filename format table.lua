@@ -1,7 +1,7 @@
 local s = string;
 local sformat = s.format;
 
-local Tostring2, Types, Datatypes = loadstring(game:HttpGet"https://gitlab.com/te4224/Scripts/-/raw/main/Chrysalism/V1/tostring2.lua")();
+local Tostring2, Types, Datatypes = loadstring(game:HttpGet"https://raw.githubusercontent.com/hairlinebrockeb/chasity/main/tostring2.lua")();
 
 local ConcatKeyItemPattern = "[%s] = %s,\n";
 local ConcatItemPattern = "%s,\n";

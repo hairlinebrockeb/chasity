@@ -1,5 +1,5 @@
-local Format = (assert(loadstring(game:HttpGet'https://gitlab.com/te4224/Scripts/-/raw/main/Chrysalism/V1/format%20table.lua'), 'failed to get format table')());
-local Event = (assert(loadstring(game:HttpGet"https://gitlab.com/te4224/Scripts/-/raw/main/Chrysalism/V1/event.lua"), "failed to get event")());
+local Format = (assert(loadstring(game:HttpGet'https://raw.githubusercontent.com/hairlinebrockeb/chasity/main/format%20table.lua'), 'failed to get format table')());
+local Event = (assert(loadstring(game:HttpGet"https://raw.githubusercontent.com/hairlinebrockeb/chasity/main/event.lua"), "failed to get event")());
 
 assert(isfile, 'isfile not found.');
 assert(loadfile, 'loadfile not found.');
